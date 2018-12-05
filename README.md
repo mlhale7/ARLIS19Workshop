@@ -1,4 +1,5 @@
-# ARLIS/NA 2019 Workshop: The Art of OpenRefine: Data Manipulation, Reconciliation, and GREL
+# ARLIS/NA 2019 Workshop: 
+# The Art of OpenRefine: Data Manipulation, Reconciliation, and GREL
 This repository (!currently under construction!) contains files and instructions for an OpenRefine workshop for the Art Libraries Society of North America (ARLIS/NA) Conference in Salt Lake City on Tuesday March 26th, 2019. Please either open a GitHub issue or email mhale16@utk.edu if you have any questions.
 
 ## Schedule
