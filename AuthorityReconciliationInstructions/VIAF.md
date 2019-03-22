@@ -29,7 +29,7 @@ Follow step one above and select “LC (by way of VIAF)” to begin reconciling.
 
 Next click “Start Reconciling” and wait until 100% of the names have been checked. Then proceed to do the authority work of selecting the correct names (see [LoC.md](LoC.md) instructions for more details)
 
-After this is complete, go to Edit column > Add column based on this column. You can then fill in the associated identifier for each reconciled name by inputting cell.recon.match.id into the expression box. Also be sure to name the column and indicate it contains a URI. Press “OK.”
+After this is complete, go to Edit column > Add column based on this column. You can then fill in the associated identifier for each reconciled name by inputting `cell.recon.match.id` into the expression box. Also be sure to name the column and indicate it contains a URI. Press “OK.”
 
 ![](Images/VIAF/VIAF6.png)
 
