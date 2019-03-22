@@ -40,7 +40,7 @@ Once finished processing, you’ll see JSON (think curly brackets) in each of th
 
 ![](Images/Getty/getty5.png)
 
-Enter value.parseJson().results.bindings[0].x.value into the expression box. Press “OK.” This will result in the URI value being outputted by itself if a match was found. Note that this only works for exact matches.
+Enter `value.parseJson().results.bindings[0].x.value` into the expression box. Press “OK.” This will result in the URI value being outputted by itself if a match was found. Note that this only works for exact matches.
 
 ![](Images/Getty/getty6.png)
 
@@ -52,6 +52,6 @@ Once back in the main spreadsheet, text facet on the Creator_URI column and clea
 
 The instructions above only work if authority work has already been done and the metadata contains an exact match. “Fuzzy” matching, or identifying authorities that are similar to the name entered, can also be achieved using Lucene.
 
-'http://vocab.getty.edu/sparql.json?query=select+distinct*{?x+skos:inScheme+ulan:;luc:term+"' + escape(value, 'url') + '"}'
+```'http://vocab.getty.edu/sparql.json?query=select+distinct*{?x+skos:inScheme+ulan:;luc:term+"' + escape(value, 'url') + '"}'```
 
 (forEach(value.parseJson().results.bindings, v, v.x.value).join(" | "))
