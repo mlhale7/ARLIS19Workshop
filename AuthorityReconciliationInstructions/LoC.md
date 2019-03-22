@@ -7,7 +7,7 @@ Note that this uses @cmharlow 's [lcreconcile service](https://github.com/cmharl
 
 ![](Images/reconcile1.png)
 
-2. On the next window, click “Add Standard Service” and enter the following URL: https://reconcilelc.herokuapp.com/
+2. On the next window, click “Add Standard Service” and enter the following URL: **https://reconcilelc.herokuapp.com/**
 
 3. You should see “LoC Reconciliation Service” appear on the “Services” list. Once this is set up, you will not need to add the service again in the future.
 
@@ -44,7 +44,7 @@ One strategy for going through the names is to do a text facet on the column in 
 
 ![](Images/reconcile8.png)
 
-9. In the pop-up menu, give the column a name (originalColumnName_URI) and then enter “cell.recon.match.id” in the “Expression” box. This will automatically pull the URI associated with the name. Make sure when you have removed any facets / selections in the project before adding these values or you will only add URIs for the records you are faceted on. You should see the link appear in the cell.recon.match.id column in the "Preview" tab. Once you've run this expression once, you will be able to reuse it in the future by selecting it under the History tab.
+9. In the pop-up menu, give the column a name (originalColumnName_URI) and then enter "**cell.recon.match.id**” in the “Expression” box. This will automatically pull the URI associated with the name. Make sure when you have removed any facets / selections in the project before adding these values or you will only add URIs for the records you are faceted on. You should see the link appear in the cell.recon.match.id column in the "Preview" tab. Once you've run this expression once, you will be able to reuse it in the future by selecting it under the History tab.
 
 ![](Images/reconcile9.png)
 
