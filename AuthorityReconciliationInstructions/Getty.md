@@ -1,10 +1,14 @@
 # Reconcilation with the Getty Vocabularies
 
-Brief instructions can be found here: http://vocab.getty.edu/queries#OpenRefine_Reconciliation_Service
+### Notes
+
+Brief instructions can also be found here: http://vocab.getty.edu/queries#OpenRefine_Reconciliation_Service
 
 Gregg Garcia (Getty) has also created a [useful presentation](https://www.getty.edu/research/tools/vocabularies/garcia_open_refine.pdf)
 
-**Note:** Before beginning reconciliation, make sure you have stripped all whitespace as this system only does exact matches (**Edit cells > Common transformations > Trim leading and trailing whitespace**)
+Before beginning reconciliation, make sure you have stripped all whitespace as this system only does exact matches (**Edit cells > Common transformations > Trim leading and trailing whitespace**)
+
+### Instructions
 
 1. Unlike other reconciliation tools that use OpenRefine’s “reconcile” feature, for the Getty vocabularies you start the reconciliation process by going to **Edit column > Add column by fetching URLs…**
   
