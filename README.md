@@ -12,7 +12,7 @@ Before the session, please [download OpenRefine](http://openrefine.org/download.
 | 10-10:15    | Break                                                        |              |
 | 10:15-10:45 | Reconciliation Demo (aat, VIAF, LoC)                         | [Instructions](AuthorityReconciliationInstructions) |
 | 10:45-11:15 | Hands on: Reconciliation                                     | [Instructions](AuthorityReconciliationInstructions)              |
-| 11:15-45    | Exporting your data                                          | Examples     |
+| 11:15-45    | Exporting your data                                          | [Example](export_template.md)     |
 | 11:45-12    | Final Q & A                                          |     |
 
 For those interested in exploring the command line and metadata harvesting more, please see the repository for [DLF's Metadata Workshop](https://github.com/DLFMetadataAssessment/DLFMetadataQAWorkshop17) from 2017. Other resources to reference can be found on the PowerPoint.
