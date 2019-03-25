@@ -20,6 +20,12 @@ value.toDate('MM/yy/dd','MMM-yy-dd').toString('yyyy-MM-dd')
 
 Goes from machine readable (aka yyyy-MM-ddT00:00:00Z) to edtf (yyyy-MM-dd)
 
+### Combining Two Columns
+
+Go to Edit cells > Transform on the column that you want to add values from another column
+
+cells['column_name'].value + value
+
 
 ### Cell Cross
 
